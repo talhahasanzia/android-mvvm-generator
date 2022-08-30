@@ -39,10 +39,15 @@ _`<>` replaces your generated feature name_
 - `<>RequestDto` - Model for request data in API call. This is json annotated to be used with Moshi.
 - `<>Response` - Model for response object, this is json annotated to be used with Moshi.
 - `<>Bindings` - DI bindings for `Service` and `UseCase` classes/interfaces
-- `<>Module` - Di method to create `<>Api` instance using `retrofit` instance discussed in Pre-requisites.
+- `<>Module` - DI module method to create `<>Api` instance using `retrofit` instance discussed in Pre-requisites.
 
 ## Extensibility
-
+While this is pretty specific, it very easy to edit or update templates
+- Goto `Preferences` in you IntelliJ (dependending on the OS, options may change), select `File and Code Templates` and scroll down in `Files` section.
+- You will see there custom templates as mentioned in the image.
+- You can add, edit, remove or even create an entirely new set of templates from this.
+- This uses [Apache Velocity](https://velocity.apache.org/engine/1.7/user-guide.html) langauage which is also mentioned in this prompt as `VTL`.
+- This is fairly simple, declarative, yet very powerful templating language. You can almost achieve everything that a code generator can using this tempalting engine.
 
 ## Disclaimer
 
