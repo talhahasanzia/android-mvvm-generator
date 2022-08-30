@@ -14,3 +14,9 @@
   - Setup some dependencies project wide using `build.gradle (project)` and `build.gradle (app)`
   
   You can always replace/edit these as per your requirements.
+  
+## Usage
+- Create a package for feature in your desired package e.g. `login`
+- Right click on target feature package, goto `New` then click `New Feature`, enter name when prompt appears
+- Name in `New Feature` is case sensitive, e.g. `Login`, generated classes will be case sensitive with capital `L`- `LoginApi`, `LoginUseCase` etc.
+- You will get all the classes generated! 
