@@ -3,7 +3,7 @@
 
 ## Pre-requisites
 - Project assumes that you use Hilt, Retrofit, Kotlin, Flows, Jetpack ViewModel and MVVM with UseCase layer.
-- Import `file_templates.zip` as intelliJ settings file. It only imports file templates, so rest of your settings remaing intact. [(How to)](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#import-export-settings)
+- Import `file_templates.zip` as intelliJ settings file. It only imports file templates, so rest of your settings remain intact. [(How to)](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#import-export-settings)
 - Copy some base files in your desired directory, which include:
   - `NetworkProvider` sets up `retrofit` instance, you can replace with your own
   - `BaseUseCase` interface enforces SRP by providing 1 method that works on 1 input and 1 output. 
