@@ -48,7 +48,7 @@ While this is pretty specific, it very easy to edit or update templates
 - You will see there custom templates as mentioned in the image.
 - You can add, edit, remove or even create an entirely new set of templates from this.
 - This uses [Apache Velocity](https://velocity.apache.org/engine/1.7/user-guide.html) langauage which is also mentioned in this prompt as `VTL`.
-- This is fairly simple, declarative, yet very powerful templating language. You can almost achieve everything that a code generator can using this tempalting engine.
+- This is fairly simple, declarative, yet very powerful templating language. You can almost achieve everything that a code generator can using this templating engine.
 
 ## Disclaimer
 - This does not in any way, ask you to implement or design apps/solutions with a preference. This might be 1 out of many ways to do things.
