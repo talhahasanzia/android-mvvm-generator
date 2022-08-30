@@ -44,6 +44,7 @@ _`<>` replaces your generated feature name_
 ## Extensibility
 While this is pretty specific, it very easy to edit or update templates
 - Goto `Preferences` in you IntelliJ (dependending on the OS, options may change), select `File and Code Templates` and scroll down in `Files` section.
+![template](https://github.com/talhahasanzia/android-mvvm-generator/blob/main/template.png)
 - You will see there custom templates as mentioned in the image.
 - You can add, edit, remove or even create an entirely new set of templates from this.
 - This uses [Apache Velocity](https://velocity.apache.org/engine/1.7/user-guide.html) langauage which is also mentioned in this prompt as `VTL`.
