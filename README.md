@@ -38,6 +38,8 @@ _`<>` replaces your generated feature name_
 - `<>State` - Model for UseCase output, again, there is room for better naming convention here.
 - `<>RequestDto` - Model for request data in API call. This is json annotated to be used with Moshi.
 - `<>Response` - Model for response object, this is json annotated to be used with Moshi.
+- `<>Bindings` - DI bindings for `Service` and `UseCase` classes/interfaces
+- `<>Module` - Di method to create `<>Api` instance using `retrofit` instance discussed in Pre-requisites.
 
 ## Extensibility
 
