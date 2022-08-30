@@ -31,6 +31,13 @@ Few more steps:
 _`<>` replaces your generated feature name_
 - `<>Api` - Retrofit API end point class
 - `<>Service` - Network call logic, uses `<>Api`
+- `<>UseCase` - Use case to contain pure logic for data transformation/manipulation
+- `<>ViewModel` - ViewModel with basic structure having reference to use case and some livedata declared
+- `<>Fragment` - Empty Fragment 
+- `<>Request` - Model for UseCase input, there is room for better naming convention here.
+- `<>State` - Model for UseCase output, again, there is room for better naming convention here.
+- `<>RequestDto` - Model for request data in API call. This is json annotated to be used with Moshi.
+- `<>Response` - Model for response object, this is json annotated to be used with Moshi.
 
 ## Extensibility
 
