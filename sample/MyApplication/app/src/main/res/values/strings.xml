@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="url_not_responding">Resource at given url is not responding.</string>
+    <string name="internet_issue_message">It seems you have a connection issue, please try again later.</string>
+    <string name="server_not_responding">Server is not responding at the moment, please try again later.</string>
+    <string name="no_data_found">No data found against requested resource.</string>
+    <string name="internal_server_error">Something went wrong at our end, please try again later.</string>
+    <string name="bad_gateway_message">We are having trouble reaching server, please try again later.</string>
+    <string name="unexpected_error">Something unexpected happened, please try again later.</string>
+</resources>
