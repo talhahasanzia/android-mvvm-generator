@@ -28,7 +28,9 @@ Few more steps:
 - Voila !  You have a feature skeleton ready to work on.
 
 ## Generated Classes
-
+_`<>` replaces your generated feature name_
+- `<>Api` - Retrofit API end point class
+- `<>Service` - Network call logic, uses `<>Api`
 
 ## Extensibility
 
