@@ -50,4 +50,6 @@ While this is pretty specific, it very easy to edit or update templates
 - This is fairly simple, declarative, yet very powerful templating language. You can almost achieve everything that a code generator can using this tempalting engine.
 
 ## Disclaimer
-
+- This does not in any way, ask you to implement or design apps/solutions with a preference. This might be 1 out of many ways to do things.
+- Do not expect this project to work 100% perfectly 100% of the time.
+- This is licensed with [Apache 2.0](https://github.com/talhahasanzia/android-mvvm-generator/blob/main/LICENSE)
